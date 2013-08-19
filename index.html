@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>jQuery Sublist Filter</title>
+
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<div>
+			<h2>Type to search</h2>
+			<input type="text" id="search">
+		</div>
+
+		<h2>The list</h2>
+		<ul class="list">
+			<li>
+				<h3>Ford</h3>
+
+				<ul class="sublist">
+					<li><a href="#">Ford Mondeo</a></li>
+					<li><a href="#">Ford Focus</a></li>
+					<li><a href="#">Ford Fiesta</a></li>
+					<li><a href="#">Ford Fusion</a></li>
+					<li><a href="#">Ford Mustang</a></li>
+					<li><a href="#">Ford C-MAX</a></li>
+					<li><a href="#">Ford Taurus</a></li>
+				</ul>
+			</li>
+
+			<li>
+				<h3>Toyota</h3>
+
+				<ul class="sublist">
+					<li><a href="#">Toyota Yaris</a></li>
+					<li><a href="#">Toyota Corolla</a></li>
+					<li><a href="#">Toyota Matrix</a></li>
+					<li><a href="#">Toyota Camry</a></li>
+					<li><a href="#">Toyota Avalon</a></li>
+					<li><a href="#">Toyota Sienna</a></li>
+				</ul>
+			</li>
+		</ul>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script src="sublist-filter.jQuery.js"></script>
+		<script>
+			$('#search').sublistFilter();
+		</script>
+	</body>
+</html>
