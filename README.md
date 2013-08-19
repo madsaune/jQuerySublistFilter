@@ -33,8 +33,8 @@ Then in your javascript file you put this.
 		reqLength: 2
 	});
 
-*list: The class of the main ul.
-*sublist: The class of the sub-uls.
-*reqLength: How many characters before the filtering starts.
+*	__list:__ The class of the main ul.
+*	__sublist:__ The class of the sub-uls.
+*	__reqLength:__ How many characters before the filtering starts.
 
 Download the example to see the full demo.
